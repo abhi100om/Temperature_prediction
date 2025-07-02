@@ -63,3 +63,8 @@ scaled = scaler.transform(input_df)
 # Predict temperature
 predicted_temp = model.predict(scaled)
 print(f"Predicted Temperature: {predicted_temp[0]:.2f} °C")
+```
+
+## 📝 License
+
+This project is licensed under the [MIT License](LICENSE).
